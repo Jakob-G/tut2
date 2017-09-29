@@ -1,0 +1,51 @@
+#bg_image{
+	width:100vw;
+	height:100vh;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-image:url(imgs/cat.jpg);
+	background-size:cover;
+	position:absolute;
+	
+}
+/***************control Pannel*****************/
+#control{
+	position:fixed;
+	left:0px;
+	top:30px;
+	width:200px;
+	left:-200px;
+	background-color:rgba(200,200,200,0.5);
+	transition:left 1s, right 1s;
+}
+#bgImgBox{
+	width:100%;
+	text-align:center;
+	
+}
+#outArrow{
+	position:absolute;
+	width:25%;
+	height:50px;
+	right:-50px;
+	top:0px;
+	background-color:rgba(200,200,200,0.5)
+}
+#inArrow{
+	position:absolute;
+	width:25%;
+	height:50px;
+	left:-50px;
+	top:0px;
+	background-color:rgba(200,200,200,0.5)
+}
+#openImg{
+	height:100%;
+}
+.bgThumbs{
+	width:80%;
+	height:auto;
+	margin:7px auto 7px auto;
+}
